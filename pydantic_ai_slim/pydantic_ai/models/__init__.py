@@ -67,6 +67,8 @@ KnownModelName = Literal[
     'ollama:qwen2',
     'ollama:qwen2.5',
     'ollama:starcoder2',
+    'ai21:jamba-1.5-mini',
+    'ai21:jamba-1.5-large',
     'test',
 ]
 """Known model names that can be used with the `model` parameter of [`Agent`][pydantic_ai.Agent].
